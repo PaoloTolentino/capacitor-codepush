@@ -1,11 +1,11 @@
 {
   "name": "capacitor-codepush",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "CodePush Plugin for Capacitor",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
-  "homepage": "https://github.com/mapiacompany/capacitor-codepush",
-  "repository": "github:mapiacompany/capacitor-codepush",
+  "homepage": "https://github.com/PaoloTolentino/capacitor-codepush",
+  "repository": "github:PaoloTolentino/capacitor-codepush",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -29,11 +29,10 @@
   "author": "MAPIACOMPANY",
   "license": "MIT",
   "devDependencies": {
-    "@capacitor-community/http": "^1.0.0",
-    "@capacitor/cli": "^3.0.0",
-    "@capacitor/device": "^1.0.0",
-    "@capacitor/dialog": "^1.0.0",
-    "@capacitor/filesystem": "^1.0.0",
+    "@capacitor/cli": "^6.1.1",
+    "@capacitor/device": "^6.0.0",
+    "@capacitor/dialog": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@rollup/plugin-node-resolve": "^11.1.0",
@@ -66,14 +65,13 @@
     "typescript": "~4.2.4"
   },
   "dependencies": {
-    "code-push": "^4.0.2"
+    "code-push": "^4.2.2"
   },
   "peerDependencies": {
-    "@capacitor-community/http": "^1.0.0",
-    "@capacitor/core": "^3.0.0",
-    "@capacitor/device": "^1.0.0",
-    "@capacitor/dialog": "^1.0.0",
-    "@capacitor/filesystem": "^1.0.0"
+    "@capacitor/core": "^6.1.1",
+    "@capacitor/device": "^6.0.0",
+    "@capacitor/dialog": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0"
   },
   "capacitor": {
     "android": {
